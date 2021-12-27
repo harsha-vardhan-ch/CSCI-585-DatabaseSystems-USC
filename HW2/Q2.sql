@@ -6,7 +6,7 @@
 
 */
 
-select symptom_id,symptom_name from symptomdescription where symptom_id=(
+select symptom_id from symptomdescription where symptom_id=(
 select symptom_id
 from symptom
 group by symptom_id
