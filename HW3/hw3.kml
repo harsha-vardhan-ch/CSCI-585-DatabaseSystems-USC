@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Placemark><name>TaperHall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284436,34.022533</coordinates></Point>
+</Placemark>
+
+<Placemark><name>BookStore</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286602,34.020537</coordinates></Point>
+</Placemark>
+
+<Placemark><name>ParksideRest</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.290871,34.018883</coordinates></Point>
+</Placemark>
+
+<Placemark><name>ParksideApts</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289908,34.019234</coordinates></Point>
+</Placemark>
+
+<Placemark><name>SGM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289272,34.021288</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Gerontology</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.290421,34.020105</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Architecture</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288286,34.019282</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Evk</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282229,34.021345</coordinates></Point>
+</Placemark>
+
+<Placemark><name>LyonCenter</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287883,34.024235</coordinates></Point>
+</Placemark>
+
+<Placemark><name>CinemaSchool</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286354,34.023572</coordinates></Point>
+</Placemark>
+
+<Placemark><name>WidneyAlumni</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28289,34.019435</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Creditunion</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285212,34.025729</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.279541,34.027979</coordinates></Point>
+</Placemark>
+
+<Placemark>
+<name>ConvexHull</name>
+<Style>
+	<LineStyle><color>ebf90cff</color></LineStyle>
+	<PolyStyle><color>311b92ff</color><width>3</width></PolyStyle>
+</Style>
+<Polygon>
+	<outerBoundaryIs>
+		<LinearRing>
+			<coordinates>
+				-118.290871,34.018883
+				-118.290421,34.020105
+				-118.287883,34.024235
+				-118.285212,34.025729
+				-118.279541,34.027979
+				-118.28289,34.019435
+				-118.290871,34.018883
+			</coordinates>
+		</LinearRing>
+	</outerBoundaryIs>
+</Polygon>
+</Placemark>
+
+<Placemark>
+	<name>Neighbour1</name>
+	<description>Nearest Neighbour1 from Home is Creditunion</description>
+	<Style>
+		<LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+	</Style>
+	<LineString>
+		<coordinates>
+			-118.279541,34.027979
+			-118.285212,34.025729
+		</coordinates>
+	</LineString>
+</Placemark>
+
+<Placemark>
+	<name>Neighbour2</name>
+	<description>Nearest Neighbour2 from Home is EVK</description>
+	<Style>
+		<LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+	</Style>
+	<LineString>
+		<coordinates>
+			-118.279541,34.027979
+			-118.282229,34.021345
+		</coordinates>
+	</LineString>
+</Placemark>
+
+<Placemark>
+	<name>Neighbour3</name>
+	<description>Nearest Neighbour3 from Home is TaperHall</description>
+	<Style>
+		<LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+	</Style>
+	<LineString>
+		<coordinates>
+			-118.279541,34.027979
+			-118.284436,34.022533
+		</coordinates>
+	</LineString>
+</Placemark>
+
+<Placemark>
+	<name>Neighbour4</name>
+	<description>Nearest Neighbour4 from Home is CinemaSchool</description>
+	<Style>
+		<LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+	</Style>
+	<LineString>
+		<coordinates>
+			-118.279541,34.027979
+			-118.286354,34.023572
+		</coordinates>
+	</LineString>
+</Placemark>
+
+</Document>
+</kml>
+ 
+
